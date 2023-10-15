@@ -21,6 +21,7 @@ const page = () => {
     setList(newList);
   };
 
+  // desafio mudar no aray original se foi feito ou nao
   const handleCheckTask = (checkedTask: boolean, id: number) => {
     for (let i = 0; i < list.length; i++) {
       if (checkedTask === true && list[i].id === id) {
